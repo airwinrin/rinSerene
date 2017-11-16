@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3ADFABAEE73C545E2F9CCF /* Pods_rinSerene.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C06312A48E72B4C69C4D4E /* Pods_rinSerene.framework */; };
+		9D7A355A1FBD31D200BA20BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A35591FBD31D200BA20BA /* AppDelegate.swift */; };
+		9D7A355C1FBD31D200BA20BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A355B1FBD31D200BA20BA /* ViewController.swift */; };
+		9D7A355F1FBD31D200BA20BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A355D1FBD31D200BA20BA /* Main.storyboard */; };
+		9D7A35611FBD31D200BA20BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A35601FBD31D200BA20BA /* Assets.xcassets */; };
+		9D7A35641FBD31D200BA20BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A35621FBD31D200BA20BA /* LaunchScreen.storyboard */; };
+		9D7A356F1FBD356E00BA20BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A356E1FBD356E00BA20BA /* GoogleService-Info.plist */; };
+		9D8C0EC01FBD6BD200845B3C /* firebaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C0EBF1FBD6BD200845B3C /* firebaseStorage.swift */; };
+		9D9B8FF71FBDF15B00063861 /* codeCheat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B8FF61FBDF15B00063861 /* codeCheat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B1E8B5FC97416B76F261BA7 /* Pods-rinSerene.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rinSerene.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene.debug.xcconfig"; sourceTree = "<group>"; };
+		666943BDABA680940399E627 /* Pods-rinSerene.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rinSerene.release.xcconfig"; path = "Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene.release.xcconfig"; sourceTree = "<group>"; };
+		87C06312A48E72B4C69C4D4E /* Pods_rinSerene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rinSerene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A35561FBD31D200BA20BA /* rinSerene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rinSerene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A35591FBD31D200BA20BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D7A355B1FBD31D200BA20BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D7A355E1FBD31D200BA20BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D7A35601FBD31D200BA20BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7A35631FBD31D200BA20BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D7A35651FBD31D200BA20BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7A356D1FBD348F00BA20BA /* rinSerene.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rinSerene.entitlements; sourceTree = "<group>"; };
+		9D7A356E1FBD356E00BA20BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "rinSerene/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9D8C0EBF1FBD6BD200845B3C /* firebaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseStorage.swift; sourceTree = "<group>"; };
+		9D9B8FF61FBDF15B00063861 /* codeCheat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeCheat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7A35531FBD31D200BA20BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3ADFABAEE73C545E2F9CCF /* Pods_rinSerene.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A609C2EFE14379633E719C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E8B5FC97416B76F261BA7 /* Pods-rinSerene.debug.xcconfig */,
+				666943BDABA680940399E627 /* Pods-rinSerene.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D7A354D1FBD31D200BA20BA = {
+			isa = PBXGroup;
+			children = (
+				9D7A35581FBD31D200BA20BA /* rinSerene */,
+				9D7A35571FBD31D200BA20BA /* Products */,
+				46A609C2EFE14379633E719C /* Pods */,
+				9F181D832B21DFB30B54B51C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7A35571FBD31D200BA20BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A35561FBD31D200BA20BA /* rinSerene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7A35581FBD31D200BA20BA /* rinSerene */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A356D1FBD348F00BA20BA /* rinSerene.entitlements */,
+				9D7A35591FBD31D200BA20BA /* AppDelegate.swift */,
+				9D8C0EBF1FBD6BD200845B3C /* firebaseStorage.swift */,
+				9D9B8FF61FBDF15B00063861 /* codeCheat.swift */,
+				9D7A355B1FBD31D200BA20BA /* ViewController.swift */,
+				9D7A355D1FBD31D200BA20BA /* Main.storyboard */,
+				9D7A35601FBD31D200BA20BA /* Assets.xcassets */,
+				9D7A35621FBD31D200BA20BA /* LaunchScreen.storyboard */,
+				9D7A35651FBD31D200BA20BA /* Info.plist */,
+				9D7A356E1FBD356E00BA20BA /* GoogleService-Info.plist */,
+			);
+			path = rinSerene;
+			sourceTree = "<group>";
+		};
+		9F181D832B21DFB30B54B51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C06312A48E72B4C69C4D4E /* Pods_rinSerene.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7A35551FBD31D200BA20BA /* rinSerene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7A35681FBD31D200BA20BA /* Build configuration list for PBXNativeTarget "rinSerene" */;
+			buildPhases = (
+				C08847132705F49ABCC38A95 /* [CP] Check Pods Manifest.lock */,
+				9D7A35521FBD31D200BA20BA /* Sources */,
+				9D7A35531FBD31D200BA20BA /* Frameworks */,
+				9D7A35541FBD31D200BA20BA /* Resources */,
+				86A1C63F7DEAE9C5B8608331 /* [CP] Embed Pods Frameworks */,
+				9FD8377CDCDC417BAB95DBAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rinSerene;
+			productName = rinSerene;
+			productReference = 9D7A35561FBD31D200BA20BA /* rinSerene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7A354E1FBD31D200BA20BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = airwinrin;
+				TargetAttributes = {
+					9D7A35551FBD31D200BA20BA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9D7A35511FBD31D200BA20BA /* Build configuration list for PBXProject "rinSerene" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7A354D1FBD31D200BA20BA;
+			productRefGroup = 9D7A35571FBD31D200BA20BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7A35551FBD31D200BA20BA /* rinSerene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7A35541FBD31D200BA20BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A35641FBD31D200BA20BA /* LaunchScreen.storyboard in Resources */,
+				9D7A356F1FBD356E00BA20BA /* GoogleService-Info.plist in Resources */,
+				9D7A35611FBD31D200BA20BA /* Assets.xcassets in Resources */,
+				9D7A355F1FBD31D200BA20BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86A1C63F7DEAE9C5B8608331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD8377CDCDC417BAB95DBAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rinSerene/Pods-rinSerene-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08847132705F49ABCC38A95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rinSerene-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7A35521FBD31D200BA20BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C0EC01FBD6BD200845B3C /* firebaseStorage.swift in Sources */,
+				9D9B8FF71FBDF15B00063861 /* codeCheat.swift in Sources */,
+				9D7A355C1FBD31D200BA20BA /* ViewController.swift in Sources */,
+				9D7A355A1FBD31D200BA20BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D7A355D1FBD31D200BA20BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7A355E1FBD31D200BA20BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D7A35621FBD31D200BA20BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7A35631FBD31D200BA20BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D7A35661FBD31D200BA20BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D7A35671FBD31D200BA20BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D7A35691FBD31D200BA20BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1E8B5FC97416B76F261BA7 /* Pods-rinSerene.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rinSerene/rinSerene.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F2NJYR8JM;
+				INFOPLIST_FILE = rinSerene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airwinrin.rinSerene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D7A356A1FBD31D200BA20BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666943BDABA680940399E627 /* Pods-rinSerene.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rinSerene/rinSerene.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F2NJYR8JM;
+				INFOPLIST_FILE = rinSerene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airwinrin.rinSerene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7A35511FBD31D200BA20BA /* Build configuration list for PBXProject "rinSerene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A35661FBD31D200BA20BA /* Debug */,
+				9D7A35671FBD31D200BA20BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7A35681FBD31D200BA20BA /* Build configuration list for PBXNativeTarget "rinSerene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A35691FBD31D200BA20BA /* Debug */,
+				9D7A356A1FBD31D200BA20BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7A354E1FBD31D200BA20BA /* Project object */;
+}
